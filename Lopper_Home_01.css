@@ -1,0 +1,928 @@
+.header{
+        background-image:  url(image/Group_9.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1509px;
+    height: 823px;
+
+
+
+    height: 900px;
+   }
+  .menu{
+      display: inline; /* Отображать как строчный элемент */
+    margin-right: 83px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+    height: 60px;
+}
+.hr{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+.pmenu{
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #FCFCFC;
+    display: inline-block;
+}
+.lopper{
+    font-family:'M PLUS 1p' ;
+    padding-right: 30px;
+    padding-left: 170px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: 2px;
+    color: #FCFCFC;
+
+
+}
+.amenu{
+    text-decoration: none;
+    color: white;
+}
+#wwd{
+    position: absolute;
+    width: 205.36px;
+    height: 22.57px;
+    left: 197.55px;
+    top: 239px;
+
+    /* Title/Medium */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+}
+#wggb{
+    position: absolute;
+    width: 768.08px;
+    height: 296px;
+    left: 198.55px;
+    top: 284px;
+
+    /* Headers/H1 */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 99px;
+    line-height: 118px;
+
+    /* Colors/Primary */
+
+    color: white;
+
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#wggbs{
+    color: #F61067;
+}
+#вертикальнаяхрень{
+    position: absolute;
+    width: 252.47px;
+    height: 28.11px;
+    left: 1130.11px;
+    top: 239px;
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(90deg);
+}
+#стрелочка{
+    position: absolute;
+    width: 21.17px;
+    height: 45.72px;
+    left: 1245.15px;
+    top: 434.21px;
+}
+#introdiv{
+
+    position: absolute;
+    width: 1162.12px;
+    height: 774px;
+    left: 167px;
+    top: 1103px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#bg2{
+    position: absolute;
+    width: 396.66px;
+    height: 540px;
+    left: 762.46px;
+    top: 18px;
+
+    /* Colors/Secondary_300 */
+
+    background: #30124E;
+    mix-blend-mode: normal;
+}
+#bg1{position: absolute;
+    width: 339.1px;
+    height: 514px;
+    left: 740.76px;
+    top: 262px;
+z-index: 2;
+    /* Colors/Secondary_200 */
+
+    background: #3A0475;
+    mix-blend-mode: normal;}
+
+#intro{
+    position: absolute;
+    width: 273.44px;
+    height: 18px;
+    left: 12px;
+    top: 95px;
+
+    /* Title/Small */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    /* Colors/Primary */
+
+    color: #F61067;
+
+}
+#of{
+    position: absolute;
+    width: 273.44px;
+    height: 68px;
+    left: 12px;
+    top: 116px;
+
+    /* Headers/H3 */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+
+    /* TextColors/Headers */
+
+    color: #30233D;
+
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#text1{position: absolute;
+    width: 405.14px;
+    height: 89px;
+    left: 12px;
+    top: 217px;
+
+    /* Text/Regular_Bold */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* TextColors/Headers */
+
+    color: #30233D;
+}
+#text2{
+    position: absolute;
+    width: 405px;
+    height: 182px;
+    left: 12px;
+    top: 342px;
+
+    /* Text/Regular */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    /* TextColors/Maintext */
+
+    color: #776C82;
+}
+#text3{
+    position: absolute;
+    width: 233.81px;
+    height: 486px;
+    left: 873.91px;
+    top: 72px;
+z-index: 3;
+    /* Quote/Small */
+
+    font-family: 'Noticia Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22.5px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+
+}#photo1{
+    z-index: 2;
+     position: absolute;
+     width: 413.75px;
+     height: 738px;
+     left: 525px;
+     top: 54px;
+ }
+ #запятаяв{
+     position: absolute;
+     z-index: 4;
+     width: 106.83px;
+     height: 159px;
+     left: 929.34px;
+     top:-65px;
+
+     font-family: 'Noticia Text';
+     font-style: italic;
+     font-weight: 700;
+     font-size: 144px;
+     line-height: 216px;
+
+     /* Colors/LightGrey */
+
+     color: #F4F4ED;
+
+     opacity: 0.25;
+ }
+#запятая{
+    position: absolute;
+    z-index: 4;
+    width: 106.83px;
+    height: 159px;
+    left: 929.34px;
+    top:220px;
+
+    font-family: 'Noticia Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 216px;
+
+    /* Colors/LightGrey */
+
+    color: #F4F4ED;
+
+    opacity: 0.25;
+}
+#button1{
+    position: absolute;
+
+    left: 12px;
+    top: 510px;
+
+    /* Text_Misc/Button */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+    background-color: #F61067;
+    border-radius: 60px ;
+    width: 177.19px;
+    height: 45px;
+    padding-left: 65px;
+
+}/*                      Cервисы                         */
+#service{
+
+    position: absolute;
+    width: 1509px;
+    height: 1548px;
+    left: 0px;
+    top: 2513px;
+
+
+    background: #150433;
+}
+#waa{
+    position: absolute;
+    width: 226.8px;
+    height: 24px;
+    left: 647px;
+    top: 340px;
+
+    /* Title/Small */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    /* Colors/Primary */
+
+    color: #F61067;
+}
+#os{
+    position: absolute;
+    width: 279.45px;
+    height: 67px;
+    left: 621px;
+    top: 345px;
+
+    /* Headers/H3 */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+}
+#texts1{
+    position: absolute;
+    width: 564.98px;
+    height: 111px;
+    left: 474px;
+    top: 450px;
+
+    /* Text/Regular_Bold */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+}#wsd{
+     position: absolute;
+     width: 321.98px;
+     height: 224px;
+     left: 164px;
+     top: 625px;
+ }
+#wd{
+    position: absolute;
+    width: 321.98px;
+    height: 250px;
+    left: 595px;
+    top: 625px;
+}
+#marketing{
+    position: absolute;
+    width: 321.98px;
+    height: 224px;
+    left: 1005px;
+    top: 625px;
+}
+
+#wsd1{
+     position: absolute;
+     width: 321.98px;
+     height: 224px;
+     left: 595px;
+     top: 931px;
+
+ }
+#wd1{
+    position: absolute;
+    width: 321.98px;
+    height: 250px;
+    left: 1005px;
+    top: 931px;
+}
+#marketing1 {
+    position: absolute;
+    width: 321.98px;
+    height: 224px;
+    left: 164px;
+    top: 931px;
+}
+#button2{
+    position: absolute;
+
+    left: 620px;
+    top: 1250px;
+
+    /* Text_Misc/Button */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+    background-color: #F61067;
+    border-radius: 60px ;
+    width: 177.19px;
+    height: 45px;
+    padding-left: 65px;
+
+}
+#three{
+    position: absolute;
+    width: 1457px;
+    height: 774px;
+    left: 0px;
+    top: 4041px;
+}
+#niga{
+    position: absolute;
+    width: 451px;
+    height: 460px;
+    left: 531px;
+    bottom: 453px;
+
+
+}
+#niga:hover{
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#textt1{
+    position: absolute;
+    width: 762.9px;
+    height: 128px;
+    left: 382.46px;
+    top: 437px;
+
+    /* Quote/Large */
+
+    font-family: 'Noticia Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 64px;
+    text-align: center;
+
+    /* TextColors/Headers */
+
+    color: #30233D;
+}
+#KJ{
+    position: absolute;
+    width: 465.43px;
+    height: 30px;
+    left: 531.2px;
+    top: 595px;
+
+    /* Text/Regular_Bold */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+}
+#kjs{
+    color: #F61067;
+}
+#as{
+    z-index: 4;
+    position: absolute;
+    width: 93.34px;
+    height: 79.73px;
+    left: 722.43px;
+    top: 290px;
+}
+#Faces{
+
+    position: absolute;
+    width: 1262.97px;
+    height: 349px;
+    left: 156px;
+    top: 20px;
+}
+#podpiska{
+    position: absolute;
+    width: 613px;
+    height: 67px;
+    left: 458px;
+    top: 780px;
+
+    /* Headers/H3 */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* TextColors/Headers */
+
+    color: #30233D;
+}
+#netsil{
+    position: absolute;
+    width: 334px;
+    height: 27px;
+    left: 597px;
+    top: 865px;
+
+    /* Headers/H6 */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* TextColors/Maintext */
+
+    color: #776C82;
+}
+#enteremail{
+    position: absolute;
+    width: 167px;
+    height: 30px;
+    left: 504px;
+    top: 945px;
+
+    /* Title/Large */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+
+    /* identical to box height */
+
+    letter-spacing: 4px;
+
+
+    /* TextColors/Grey */
+
+    color: #9B94A3;
+
+}
+#Subscribe{
+    position: absolute;
+    width: 125px;
+    height: 57px;
+    left: 845px;
+    top: 945px;
+
+    /* Title/Small */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    /* Colors/Primary */
+
+    color: #F61067;
+}
+#Lopper{
+    z-index: 4;
+    position: absolute;
+    width: 103.74px;
+    height: 43.31px;
+    left: 119.93px;
+    top: 327.38px;
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: 2px;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+}
+#EAU{
+    z-index: 4;
+    position: absolute;
+    height: 53.38px;
+    left: 119.93px;
+    right: 1163.12px;
+    top: 386.8px;
+
+    /* Text/Small */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 26px;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+}
+#footpin{
+    z-index: 4;
+    position: absolute;
+    width: 576.35px;
+    height: 225.6px;
+    left: 426.7px;
+    top:325.38px;
+
+}
+#мытут{
+    position: absolute;
+    width: 136.23px;
+    height: 27.19px;
+    left: 1042.88px;
+    top: 307.38px;
+
+    /* Title/Small */
+
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    /* Colors/White */
+
+    color: #FCFCFC;
+
+}
+#hr2{
+    position: absolute;
+    width: 127.85px;
+    height: 1.01px;
+    left: 1042.88px;
+    top: 345.57px;
+
+    /* Colors/Primary */
+
+    background: #a90e42;
+}
+#vec1{
+    position: absolute;
+    top: 401px;
+    left: 1005px;
+}
+#vec2{
+    position: absolute;
+    top: 401px;
+    left: 1060px;
+}
+#vec3{
+    position: absolute;
+    top: 401px;
+    left: 1115px;
+}
+#vec4{
+    position: absolute;
+    top: 401px;
+    left: 1170px;
+}
+#vec5{
+    position: absolute;
+    top: 401px;
+    left: 1225px;
+}
+#divv{position: absolute;
+    width: 1509px;
+    height: 562px;
+    left: -23px;
+    top: 5256px;
+
+    /* Colors/Secondary_400 */
+
+    background: #150433;
+
+}
+@media (max-width: 1080px) {
+    .header {
+        width: 1080px;
+
+    }
+
+    #three {
+        width: 1080px;
+    }
+
+    #service {
+        width: 1080px;
+    }
+
+    #Faces {
+        width: 1080px;
+    }
+
+    .menu {
+        margin-right: 20px;
+    }
+
+    #вертикальнаяхрень {
+        left: 760px;
+    }
+
+    #стрелочка {
+        left: 880px;
+    }
+
+    #introdiv {
+        left: 0;
+    }
+
+    #photo1 {
+        left: 500px;
+    }
+
+    #bg1 {
+        left: 715px;
+    }
+
+    #bg2 {
+        left: 690px;
+    }
+
+    #text3 {
+        left: 848px;
+    }
+
+    #Faces {
+        position: absolute;
+        width: 1080px;
+        height: 349px;
+        left: 0px;
+        top: 20px;
+
+    }
+#niga{
+    left: 310px;
+}
+#waa{
+    left: 427px;
+    top: 100px;
+}
+#os{
+    left: 400px;
+    top: 115px;
+}
+    #texts1{
+        left: 258px;
+        top: 200px;
+    }
+
+#marketing{
+    left: 164px;
+    top:336px;
+}
+#wd1{
+    left: 595px;
+    top: 336px;
+}
+#button2{
+    left: 419px;
+}
+#textt1{
+    left: 159px;
+
+}
+#KJ{
+    left:307.5px;
+}
+#podpiska{
+    left: 233.5px;
+}
+#netsil{
+    left: 373px;
+}
+#enteremail{
+    left: 270px;
+}
+#Subscribe{
+    left: 600px;
+}
+#footpin{
+    left: 300px;
+    top: 100px;
+}
+#divv{position: absolute;
+    width:1080px;
+
+}
+#мытут{
+    left: 810px;
+}
+    #vec1{position: absolute;left: 745px}
+    #vec2{position: absolute;left: 810px}
+    #vec3{position: absolute;left: 875px}
+    #vec4{position: absolute;left: 940px}
+    #vec5{position: absolute;left: 1005px}
+#hr2{
+    left: 810px;
+}
+#EAU{
+    width: 190px;
+}
+
+    @keyframes rotation {
+        0% {bottom: 100%;}
+        25% {
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+        }
+        30% {
+            bottom: 0;
+            height: 50px;
+            width: 110px;
+        }
+        35% {
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+        }
+        70% {
+            bottom: 100%;
+        }
+        100% {
+            bottom: 100%;
+        }
+        0% {
+            transform:rotate(0deg);
+        }
+        100% {
+            transform:rotate(360deg);
+        }
+    }
+
+}
